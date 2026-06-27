@@ -3,9 +3,6 @@ import pandas as pd
 
 st.title("SleepScore – Sleep Quality Predictor")
 
-# Load dataset
-data = pd.read_csv("sleep_data.csv")
-
 st.subheader("Enter Your Details")
 
 age = st.number_input("Age", min_value=10, max_value=100, value=25)
